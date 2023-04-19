@@ -15,7 +15,7 @@ body {
 }
 
 header h1 {
-  background-color: #364552;
+  background-color: #2f3337;
   color: white;
   padding: 3rem 2rem;
   font-size: 3rem;
@@ -148,4 +148,16 @@ footer a:hover {
 
 .tabcontent {
   animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+#tab1-button,
+#tab3-button {
+  color: white;
+  background-color: #878a8d;
+}
+
+#tab2-button,
+#tab4-button {
+  color: black;
+  background-color: #d7d8da;
 }
