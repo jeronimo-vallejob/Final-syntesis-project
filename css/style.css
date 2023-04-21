@@ -2,6 +2,12 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 
+#for {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
 img {
   display: block;
   margin-left: auto;
@@ -11,10 +17,11 @@ img {
 
 body {
   margin: 0;
-  background-image: url("../img/136DB0EE-11C8-44A7-AB22-24D88E62A480.jpeg");
+  background-image: url("../img/fondo.jpg");
 }
 
 header h1 {
+  font-family: background-image;
   background-color: #2f3337;
   color: white;
   padding: 3rem 2rem;
@@ -151,13 +158,16 @@ footer a:hover {
 }
 
 #tab1-button,
-#tab3-button {
+#tab3-button,
+#tab5-button {
+  font-size: 12px;
   color: white;
   background-color: #878a8d;
 }
 
 #tab2-button,
 #tab4-button {
+  font-size: 12px;
   color: black;
   background-color: #d7d8da;
 }
